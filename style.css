@@ -175,8 +175,14 @@ header .menu{
     padding: 10px;
     color: #fff;
 }
-@media(max-width:1000px){
-
+@media(max-width:600px){
+  .logo img{
+    width: 100%;
+    
+    /* right: 50px; */
+    /* height: 15px; */
+    /* display: none; */
+  }
     .header2{
         display: none;
     }
