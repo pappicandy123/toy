@@ -176,6 +176,10 @@ header .menu{
     color: #fff;
 }
 @media(max-width:600px){
+    .logo{
+        display: flex;
+        ;
+    }
   .logo img{
     width: 100%;
     
@@ -188,6 +192,10 @@ header .menu{
     }
     .search-box button{
         position: absolute;
+        
+    }
+    .search-box{
+        margin-left: 10px;
     }
     header ul{
         position: fixed;
